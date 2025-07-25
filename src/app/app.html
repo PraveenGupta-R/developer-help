@@ -1,0 +1,139 @@
+<!-- Top Header -->
+<div class="top-header">
+  <div class="top-left">
+    <div class="logo-circle">
+      <img src="../assets/p_icon.png" alt="loading">
+    </div>
+  </div>
+  <div class="top-right">
+    <a href="#" class="login">Login</a>
+    <button class="create-account">Create an account</button>
+  </div>
+</div>
+
+<!-- Navigation Bar -->
+<nav class="main-navbar">
+  <div class="container">
+    <ul class="nav-list">
+
+     
+      <li class="nav-item">
+        <a href="#">Java</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink=" ">Java Basics</a></li>
+          <li><a class="dropdown-item" routerLink="/java/oops">OOPs</a></li>
+          <li><a class="dropdown-item" routerLink="/java/jvm">JVM & Memory Model</a></li>
+          <li><a class="dropdown-item" routerLink="/java/exceptions">Exception Handling</a></li>
+          <li><a class="dropdown-item" routerLink="/java/collections">Collections Framework</a></li>
+          <li><a class="dropdown-item" routerLink="/java/generics">Generics</a></li>
+          <li><a class="dropdown-item" routerLink="/java/multithreading">Multithreading</a></li>
+          <li><a class="dropdown-item" routerLink="/java/java8">Java 8 Features</a></li>
+          <li><a class="dropdown-item" routerLink="/java/java9plus">Java 9–17+</a></li>
+          <li><a class="dropdown-item" routerLink="/java/designpatterns">Design Patterns</a></li>
+        </ul>
+      </li>
+
+      <!-- Spring Dropdown -->
+      <li class="nav-item">
+        <a href="#">Spring</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="/spring">Option 1</a></li>
+          <li><a class="dropdown-item" routerLink="/spring">Option 2</a></li>
+          <li><a class="dropdown-item" routerLink="spring">Option 3</a></li>
+        </ul>
+      </li>
+
+      <!-- Spring Boot Dropdown -->
+      <li class="nav-item">
+        <a href="#">Spring Boot</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="/spring-boot">Option 1</a></li>
+          <li><a class="dropdown-item" routerLink="/spring-boot">Option 2</a></li>
+          <li><a class="dropdown-item" routerLink="/spring-boot">Option 3</a></li>
+        </ul>
+      </li>
+
+      <!-- Microservices Dropdown -->
+      <li class="nav-item">
+        <a href="#">Microservices</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="/microservices">Option 1</a></li>
+          <li><a class="dropdown-item" routerLink="/microservices">Option 2</a></li>
+          <li><a class="dropdown-item" routerLink="/microservices">Option 3</a></li>
+        </ul>
+      </li>
+
+      <!-- Docker Dropdown -->
+      <li class="nav-item">
+        <a href="#">Docker</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="/docker">Option 1</a></li>
+          <li><a class="dropdown-item" routerLink="/docker">Option 2</a></li>
+          <li><a class="dropdown-item" routerLink="/docker">Option 3</a></li>
+        </ul>
+      </li>
+
+      <!-- AWS Dropdown -->
+      <li class="nav-item">
+        <a href="#">AWS</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="/aws">Option 1</a></li>
+          <li><a class="dropdown-item" routerLink="/aws">Option 2</a></li>
+          <li><a class="dropdown-item" routerLink="/aws">Option 3</a></li>
+        </ul>
+      </li>
+
+      <!-- Kafka Dropdown -->
+      <li class="nav-item">
+        <a href="#">Kafka</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="/kafka">Option 1</a></li>
+          <li><a class="dropdown-item" routerLink="/kafka">Option 2</a></li>
+          <li><a class="dropdown-item" routerLink="/kafka">Option 3</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a href="#">SQL</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="/aws">Option 1</a></li>
+          <li><a class="dropdown-item" routerLink="/aws">Option 2</a></li>
+          <li><a class="dropdown-item" routerLink="/aws">Option 3</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a href="#">Angular</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" routerLink="/aws">Option 1</a></li>
+          <li><a class="dropdown-item" routerLink="/aws">Option 2</a></li>
+          <li><a class="dropdown-item" routerLink="/aws">Option 3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div id="anime">
+  Learn
+  <div id="flip">
+    <span>JAVA</span>
+    <span>SPRING</span>
+    <span>SQL</span>
+    <span>AWS</span>
+    <span>DOCKER</span>
+  </div>
+  AweSoMe!
+</div>
+<div class="starfield-bg"></div>
+
+<section class="restaurant-search">
+  <div class="center-logo"><img src="../assets/p_icon.png" style="width: 110px; margin-right: 41px;" /></div>
+  <div class="space" style="padding: 30px;">
+  </div>
+  <div class="input-group" style="padding: 20px;">
+    <input type="text" placeholder="Please select a location">
+    <input type="text" placeholder="Search for restaurants">
+  </div>
+</section>
+
+<router-outlet></router-outlet>

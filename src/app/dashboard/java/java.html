@@ -1,0 +1,142 @@
+
+
+<div *ngIf="topic === 'oops'">
+  <h2>2. OOPs</h2>
+  <ul>
+    <li>Class, Object, Constructor</li>
+    <li>Inheritance</li>
+    <li>super, this</li>
+    <li>Overloading & Overriding</li>
+    <li>Polymorphism</li>
+    <li>Abstraction, Encapsulation</li>
+    <li>Final, Static</li>
+    <li>Inner Classes</li>
+  </ul>
+</div>
+
+<div *ngIf="topic === 'jvm'">
+  <h2>3. JVM & Memory Model</h2>
+  <ul>
+    <li>Stack vs Heap</li>
+    <li>ClassLoader</li>
+    <li>Runtime Constant Pool</li>
+    <li>Garbage Collection</li>
+    <li>Errors (OOME, SOE)</li>
+  </ul>
+</div>
+
+
+
+
+  <h1>Java Revision Topics</h1>
+  <div class="container">
+    <div class="card"  *ngIf="topic === 'basics'">
+      <h2>1. Java Basics</h2>
+      <ul>
+        <li>History of Java, JDK, JRE, JVM</li>
+        <li>Data Types, Variables, Keywords</li>
+        <li>Type Casting</li>
+        <li>Operators</li>
+        <li>Control Flow</li>
+        <li>Arrays</li>
+        <li>Strings vs StringBuilder vs StringBuffer</li>
+      </ul>
+    </div>
+
+ 
+    <div class="card"  *ngIf="topic === 'oops'">
+      <h2>2. OOPs</h2>
+      <ul>
+        <li>Class, Object, Constructor</li>
+        <li>Inheritance</li>
+        <li>super, this</li>
+        <li>Overloading & Overriding</li>
+        <li>Polymorphism</li>
+        <li>Abstraction, Encapsulation</li>
+        <li>Final, Static</li>
+        <li>Inner Classes</li>
+      </ul>
+    </div>
+    <div class="card" *ngIf="topic === 'jvm'">
+      <h2>3. JVM & Memory Model</h2>
+      <ul>
+        <li>Stack vs Heap</li>
+        <li>ClassLoader</li>
+        <li>Runtime Constant Pool</li>
+        <li>Garbage Collection</li>
+        <li>Errors (OOME, SOE)</li>
+      </ul>
+    </div>
+    <div class="card" *ngIf="topic === 'exceptions'">
+      <h2>4. Exception Handling</h2>
+      <ul>
+        <li>try-catch-finally</li>
+        <li>throw vs throws</li>
+        <li>Checked vs Unchecked</li>
+        <li>Custom Exceptions</li>
+        <li>Try-with-resources</li>
+      </ul>
+    </div>
+    <div class="card" *ngIf="topic === 'collections'">
+      <h2>5. Collections Framework</h2>
+      <ul>
+        <li>List, Set, Map</li>
+        <li>Queue, Stack, Deque</li>
+        <li>Iterator</li>
+        <li>Fail-fast vs Fail-safe</li>
+        <li>Comparable vs Comparator</li>
+      </ul>
+    </div>
+    <div class="card"   *ngIf="topic === 'generics'">
+      <h2>6. Generics</h2>
+      <ul>
+        <li>Generic Classes & Methods</li>
+        <li>Bounded Types</li>
+        <li>Wildcards</li>
+        <li>Type Erasure</li>
+      </ul>
+    </div>
+    <div class="card" *ngIf="topic === 'multithreading'">
+      <h2>7. Multithreading</h2>
+      <ul>
+        <li>Thread vs Runnable</li>
+        <li>Thread Lifecycle</li>
+        <li>Synchronization</li>
+        <li>ExecutorService</li>
+        <li>Future, CompletableFuture</li>
+        <li>Locks, Deadlocks</li>
+      </ul>
+    </div>
+    <div class="card" *ngIf="topic === 'java8'">
+      <h2>8. Java 8 Features</h2>
+      <ul>
+        <li>Lambdas</li>
+        <li>Streams</li>
+        <li>Optional</li>
+        <li>Functional Interfaces</li>
+        <li>Method References</li>
+      </ul>
+    </div>
+    <div class="card" *ngIf="topic === 'java9plus'">
+      <h2>9. Java 9-17+</h2>
+      <ul>
+        <li>Modules</li>
+        <li>var keyword</li>
+        <li>Immutable Collections</li>
+        <li>Records</li>
+        <li>Text Blocks</li>
+        <li>Sealed Classes</li>
+      </ul>
+    </div>
+    <div class="card"   *ngIf="topic === 'designpatterns'">
+      <h2>10. Design Patterns</h2>
+      <ul>
+        <li>Singleton</li>
+        <li>Factory</li>
+        <li>Builder</li>
+        <li>Strategy</li>
+        <li>Observer</li>
+      </ul>
+    </div>
+  </div>
+

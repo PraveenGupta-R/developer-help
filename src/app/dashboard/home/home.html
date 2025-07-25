@@ -1,0 +1,12 @@
+
+
+<div class="course-container">
+  <div
+    class="course-card"
+    *ngFor="let course of courses"
+    (click)="goToCourse(course.id)"
+  >
+    <img [src]="course.img" alt="Course Image" />
+    <h5>{{ course.title }}</h5>
+  </div>
+</div>
